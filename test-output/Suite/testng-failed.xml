@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="IETest(failed)" parallel="tests">
+    <parameter name="browser" value="EDGE"/>
+    <classes>
+      <class name="com.practices.phptravels.phptravelsHomeMenuTest">
+        <methods>
+          <include name="Driverquit"/>
+          <include name="Driverquit"/>
+          <include name="Driverquit"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="clickmenu"/>
+        </methods>
+      </class> <!-- com.practices.phptravels.phptravelsHomeMenuTest -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
